@@ -1,8 +1,13 @@
 #include <stdio.h>
 
+static void hello_mipt (void)
+{
+    printf ("Hello, MIPT!\n");
+}
+
 int main (void)
 {
-    printf ("Hello, World!\n");
+    hello_mipt ();
 
     return 0;
 }
